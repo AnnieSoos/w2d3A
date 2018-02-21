@@ -1,7 +1,8 @@
 
 var grades=[9,10,1,5.9,6,6.9]
 
-var toAmericanGrade=grades.map(grade=[] => {
+function toAmericanGrade(grades) {
+  var toAmericanGrade=grades.map(grade=[] => {
     if (grade<=10 && grade>9)
     return "A"
     else if (grade<=8.9 && grade>8)
